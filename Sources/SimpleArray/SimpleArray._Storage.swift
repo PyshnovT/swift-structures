@@ -85,3 +85,15 @@ extension SimpleArray._Storage {
     static var growthFactor: Double { 1.5 }
     
 }
+
+extension SimpleArray._Storage {
+    
+    var count: Int {
+        _buffer.withUnsafeMutablePointerToHeader { $0.pointee.count }
+    }
+    
+    var capacity: Int {
+        _buffer.withUnsafeMutablePointerToHeader { $0.pointee.capacity }
+    }
+    
+}

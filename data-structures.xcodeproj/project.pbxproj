@@ -7,193 +7,193 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		224C7B7E296B4B4500E10ACD /* Data_Structures.docc in Sources */ = {isa = PBXBuildFile; fileRef = 224C7B7D296B4B4500E10ACD /* Data_Structures.docc */; };
-		224C7B84296B4B4500E10ACD /* Data_Structures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224C7B79296B4B4500E10ACD /* Data_Structures.framework */; };
-		224C7B89296B4B4500E10ACD /* Data_StructuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C7B88296B4B4500E10ACD /* Data_StructuresTests.swift */; };
-		224C7B8A296B4B4500E10ACD /* Data_Structures.h in Headers */ = {isa = PBXBuildFile; fileRef = 224C7B7C296B4B4500E10ACD /* Data_Structures.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		224C7B9D296B4CAB00E10ACD /* SimpleArray._Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C7B96296B4CAB00E10ACD /* SimpleArray._Storage.swift */; };
-		224C7B9E296B4CAB00E10ACD /* _SimpleArrayBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C7B97296B4CAB00E10ACD /* _SimpleArrayBuffer.swift */; };
-		224C7B9F296B4CAB00E10ACD /* SimpleArray._UnsafeHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C7B98296B4CAB00E10ACD /* SimpleArray._UnsafeHandle.swift */; };
-		224C7BA0296B4CAB00E10ACD /* _SimpleArraySlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C7B99296B4CAB00E10ACD /* _SimpleArraySlot.swift */; };
-		224C7BA1296B4CAB00E10ACD /* SimpleArray+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C7B9A296B4CAB00E10ACD /* SimpleArray+Collection.swift */; };
-		224C7BA2296B4CAB00E10ACD /* SimpleArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C7B9B296B4CAB00E10ACD /* SimpleArray.swift */; };
-		224C7BA3296B4CAB00E10ACD /* _SimpleArrayBufferHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C7B9C296B4CAB00E10ACD /* _SimpleArrayBufferHeader.swift */; };
-		224C7BA5296B4CD000E10ACD /* SimpleArray.docc in Sources */ = {isa = PBXBuildFile; fileRef = 224C7BA4296B4CD000E10ACD /* SimpleArray.docc */; };
+		22D9577B296C443C002C7B66 /* _SimpleArraySlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D95772296C443C002C7B66 /* _SimpleArraySlot.swift */; };
+		22D9577C296C443C002C7B66 /* SimpleArray._Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D95773296C443C002C7B66 /* SimpleArray._Storage.swift */; };
+		22D9577D296C443C002C7B66 /* SimpleArray._UnsafeHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D95774296C443C002C7B66 /* SimpleArray._UnsafeHandle.swift */; };
+		22D9577E296C443C002C7B66 /* SimpleArray.docc in Sources */ = {isa = PBXBuildFile; fileRef = 22D95775296C443C002C7B66 /* SimpleArray.docc */; };
+		22D9577F296C443C002C7B66 /* SimpleArray+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D95776296C443C002C7B66 /* SimpleArray+Collection.swift */; };
+		22D95780296C443C002C7B66 /* _SimpleArrayBufferHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D95777296C443C002C7B66 /* _SimpleArrayBufferHeader.swift */; };
+		22D95781296C443C002C7B66 /* _SimpleArrayBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D95778296C443C002C7B66 /* _SimpleArrayBuffer.swift */; };
+		22D95782296C443C002C7B66 /* SimpleArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D95779296C443C002C7B66 /* SimpleArray.swift */; };
+		22D95785296C45E3002C7B66 /* Data_Structures.docc in Sources */ = {isa = PBXBuildFile; fileRef = 22D95784296C45E3002C7B66 /* Data_Structures.docc */; };
+		22DC4547296C438D00526DD4 /* data_structures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DC453C296C438D00526DD4 /* data_structures.framework */; };
+		22DC454C296C438D00526DD4 /* SimpleArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC454B296C438D00526DD4 /* SimpleArrayTests.swift */; };
+		22DC454D296C438D00526DD4 /* data_structures.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DC453F296C438D00526DD4 /* data_structures.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		224C7B85296B4B4500E10ACD /* PBXContainerItemProxy */ = {
+		22DC4548296C438D00526DD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 224C7B70296B4B4500E10ACD /* Project object */;
+			containerPortal = 22DC4533296C438D00526DD4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 224C7B78296B4B4500E10ACD;
-			remoteInfo = "Data Structures";
+			remoteGlobalIDString = 22DC453B296C438D00526DD4;
+			remoteInfo = "data-structures";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		224C7B79296B4B4500E10ACD /* Data_Structures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data_Structures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		224C7B7C296B4B4500E10ACD /* Data_Structures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Data_Structures.h; sourceTree = "<group>"; };
-		224C7B7D296B4B4500E10ACD /* Data_Structures.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Data_Structures.docc; sourceTree = "<group>"; };
-		224C7B83296B4B4500E10ACD /* Data StructuresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Data StructuresTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		224C7B88296B4B4500E10ACD /* Data_StructuresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data_StructuresTests.swift; sourceTree = "<group>"; };
-		224C7B96296B4CAB00E10ACD /* SimpleArray._Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleArray._Storage.swift; sourceTree = "<group>"; };
-		224C7B97296B4CAB00E10ACD /* _SimpleArrayBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _SimpleArrayBuffer.swift; sourceTree = "<group>"; };
-		224C7B98296B4CAB00E10ACD /* SimpleArray._UnsafeHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleArray._UnsafeHandle.swift; sourceTree = "<group>"; };
-		224C7B99296B4CAB00E10ACD /* _SimpleArraySlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _SimpleArraySlot.swift; sourceTree = "<group>"; };
-		224C7B9A296B4CAB00E10ACD /* SimpleArray+Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SimpleArray+Collection.swift"; sourceTree = "<group>"; };
-		224C7B9B296B4CAB00E10ACD /* SimpleArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleArray.swift; sourceTree = "<group>"; };
-		224C7B9C296B4CAB00E10ACD /* _SimpleArrayBufferHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _SimpleArrayBufferHeader.swift; sourceTree = "<group>"; };
-		224C7BA4296B4CD000E10ACD /* SimpleArray.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SimpleArray.docc; sourceTree = "<group>"; };
+		22D95772296C443C002C7B66 /* _SimpleArraySlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _SimpleArraySlot.swift; sourceTree = "<group>"; };
+		22D95773296C443C002C7B66 /* SimpleArray._Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleArray._Storage.swift; sourceTree = "<group>"; };
+		22D95774296C443C002C7B66 /* SimpleArray._UnsafeHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleArray._UnsafeHandle.swift; sourceTree = "<group>"; };
+		22D95775296C443C002C7B66 /* SimpleArray.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SimpleArray.docc; sourceTree = "<group>"; };
+		22D95776296C443C002C7B66 /* SimpleArray+Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SimpleArray+Collection.swift"; sourceTree = "<group>"; };
+		22D95777296C443C002C7B66 /* _SimpleArrayBufferHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _SimpleArrayBufferHeader.swift; sourceTree = "<group>"; };
+		22D95778296C443C002C7B66 /* _SimpleArrayBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _SimpleArrayBuffer.swift; sourceTree = "<group>"; };
+		22D95779296C443C002C7B66 /* SimpleArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleArray.swift; sourceTree = "<group>"; };
+		22D95784296C45E3002C7B66 /* Data_Structures.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Data_Structures.docc; sourceTree = "<group>"; };
+		22DC453C296C438D00526DD4 /* data_structures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = data_structures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DC453F296C438D00526DD4 /* data_structures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = data_structures.h; sourceTree = "<group>"; };
+		22DC4546296C438D00526DD4 /* data-structuresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "data-structuresTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DC454B296C438D00526DD4 /* SimpleArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleArrayTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		224C7B76296B4B4500E10ACD /* Frameworks */ = {
+		22DC4539296C438D00526DD4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		224C7B80296B4B4500E10ACD /* Frameworks */ = {
+		22DC4543296C438D00526DD4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224C7B84296B4B4500E10ACD /* Data_Structures.framework in Frameworks */,
+				22DC4547296C438D00526DD4 /* data_structures.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		224C7B6F296B4B4500E10ACD = {
+		22D95771296C443C002C7B66 /* SimpleArray */ = {
 			isa = PBXGroup;
 			children = (
-				224C7B93296B4BF200E10ACD /* Sources */,
-				224C7B7B296B4B4500E10ACD /* Documentation */,
-				224C7B87296B4B4500E10ACD /* Data StructuresTests */,
-				224C7B7A296B4B4500E10ACD /* Products */,
+				22D95772296C443C002C7B66 /* _SimpleArraySlot.swift */,
+				22D95773296C443C002C7B66 /* SimpleArray._Storage.swift */,
+				22D95774296C443C002C7B66 /* SimpleArray._UnsafeHandle.swift */,
+				22D95775296C443C002C7B66 /* SimpleArray.docc */,
+				22D95776296C443C002C7B66 /* SimpleArray+Collection.swift */,
+				22D95777296C443C002C7B66 /* _SimpleArrayBufferHeader.swift */,
+				22D95778296C443C002C7B66 /* _SimpleArrayBuffer.swift */,
+				22D95779296C443C002C7B66 /* SimpleArray.swift */,
 			);
+			path = SimpleArray;
 			sourceTree = "<group>";
 		};
-		224C7B7A296B4B4500E10ACD /* Products */ = {
+		22D95783296C45E3002C7B66 /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
-				224C7B79296B4B4500E10ACD /* Data_Structures.framework */,
-				224C7B83296B4B4500E10ACD /* Data StructuresTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		224C7B7B296B4B4500E10ACD /* Documentation */ = {
-			isa = PBXGroup;
-			children = (
-				224C7B7C296B4B4500E10ACD /* Data_Structures.h */,
-				224C7B7D296B4B4500E10ACD /* Data_Structures.docc */,
+				22D95784296C45E3002C7B66 /* Data_Structures.docc */,
 			);
 			path = Documentation;
 			sourceTree = "<group>";
 		};
-		224C7B87296B4B4500E10ACD /* Data StructuresTests */ = {
+		22DC4532296C438D00526DD4 = {
 			isa = PBXGroup;
 			children = (
-				224C7B88296B4B4500E10ACD /* Data_StructuresTests.swift */,
+				22D95783296C45E3002C7B66 /* Documentation */,
+				22DC453E296C438D00526DD4 /* Sources */,
+				22DC454A296C438D00526DD4 /* Tests */,
+				22DC453D296C438D00526DD4 /* Products */,
 			);
-			path = "Data StructuresTests";
 			sourceTree = "<group>";
 		};
-		224C7B93296B4BF200E10ACD /* Sources */ = {
+		22DC453D296C438D00526DD4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				224C7B95296B4C6E00E10ACD /* SimpleArray */,
+				22DC453C296C438D00526DD4 /* data_structures.framework */,
+				22DC4546296C438D00526DD4 /* data-structuresTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22DC453E296C438D00526DD4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				22DC453F296C438D00526DD4 /* data_structures.h */,
+				22D95771296C443C002C7B66 /* SimpleArray */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		224C7B95296B4C6E00E10ACD /* SimpleArray */ = {
+		22DC454A296C438D00526DD4 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				224C7B97296B4CAB00E10ACD /* _SimpleArrayBuffer.swift */,
-				224C7B9C296B4CAB00E10ACD /* _SimpleArrayBufferHeader.swift */,
-				224C7B99296B4CAB00E10ACD /* _SimpleArraySlot.swift */,
-				224C7B96296B4CAB00E10ACD /* SimpleArray._Storage.swift */,
-				224C7B98296B4CAB00E10ACD /* SimpleArray._UnsafeHandle.swift */,
-				224C7B9B296B4CAB00E10ACD /* SimpleArray.swift */,
-				224C7B9A296B4CAB00E10ACD /* SimpleArray+Collection.swift */,
-				224C7BA4296B4CD000E10ACD /* SimpleArray.docc */,
+				22DC454B296C438D00526DD4 /* SimpleArrayTests.swift */,
 			);
-			path = SimpleArray;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		224C7B74296B4B4500E10ACD /* Headers */ = {
+		22DC4537296C438D00526DD4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224C7B8A296B4B4500E10ACD /* Data_Structures.h in Headers */,
+				22DC454D296C438D00526DD4 /* data_structures.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		224C7B78296B4B4500E10ACD /* Data Structures */ = {
+		22DC453B296C438D00526DD4 /* data-structures */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 224C7B8D296B4B4500E10ACD /* Build configuration list for PBXNativeTarget "Data Structures" */;
+			buildConfigurationList = 22DC4550296C438D00526DD4 /* Build configuration list for PBXNativeTarget "data-structures" */;
 			buildPhases = (
-				224C7B74296B4B4500E10ACD /* Headers */,
-				224C7B75296B4B4500E10ACD /* Sources */,
-				224C7B76296B4B4500E10ACD /* Frameworks */,
-				224C7B77296B4B4500E10ACD /* Resources */,
+				22DC4537296C438D00526DD4 /* Headers */,
+				22DC4538296C438D00526DD4 /* Sources */,
+				22DC4539296C438D00526DD4 /* Frameworks */,
+				22DC453A296C438D00526DD4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Data Structures";
-			productName = "Data Structures";
-			productReference = 224C7B79296B4B4500E10ACD /* Data_Structures.framework */;
+			name = "data-structures";
+			productName = "data-structures";
+			productReference = 22DC453C296C438D00526DD4 /* data_structures.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		224C7B82296B4B4500E10ACD /* Data StructuresTests */ = {
+		22DC4545296C438D00526DD4 /* data-structuresTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 224C7B90296B4B4500E10ACD /* Build configuration list for PBXNativeTarget "Data StructuresTests" */;
+			buildConfigurationList = 22DC4553296C438D00526DD4 /* Build configuration list for PBXNativeTarget "data-structuresTests" */;
 			buildPhases = (
-				224C7B7F296B4B4500E10ACD /* Sources */,
-				224C7B80296B4B4500E10ACD /* Frameworks */,
-				224C7B81296B4B4500E10ACD /* Resources */,
+				22DC4542296C438D00526DD4 /* Sources */,
+				22DC4543296C438D00526DD4 /* Frameworks */,
+				22DC4544296C438D00526DD4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				224C7B86296B4B4500E10ACD /* PBXTargetDependency */,
+				22DC4549296C438D00526DD4 /* PBXTargetDependency */,
 			);
-			name = "Data StructuresTests";
-			productName = "Data StructuresTests";
-			productReference = 224C7B83296B4B4500E10ACD /* Data StructuresTests.xctest */;
+			name = "data-structuresTests";
+			productName = "data-structuresTests";
+			productReference = 22DC4546296C438D00526DD4 /* data-structuresTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		224C7B70296B4B4500E10ACD /* Project object */ = {
+		22DC4533296C438D00526DD4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					224C7B78296B4B4500E10ACD = {
+					22DC453B296C438D00526DD4 = {
 						CreatedOnToolsVersion = 14.1;
 					};
-					224C7B82296B4B4500E10ACD = {
+					22DC4545296C438D00526DD4 = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = 224C7B73296B4B4500E10ACD /* Build configuration list for PBXProject "Data Structures" */;
+			buildConfigurationList = 22DC4536296C438D00526DD4 /* Build configuration list for PBXProject "data-structures" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -201,26 +201,26 @@
 				en,
 				Base,
 			);
-			mainGroup = 224C7B6F296B4B4500E10ACD;
-			productRefGroup = 224C7B7A296B4B4500E10ACD /* Products */;
+			mainGroup = 22DC4532296C438D00526DD4;
+			productRefGroup = 22DC453D296C438D00526DD4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				224C7B78296B4B4500E10ACD /* Data Structures */,
-				224C7B82296B4B4500E10ACD /* Data StructuresTests */,
+				22DC453B296C438D00526DD4 /* data-structures */,
+				22DC4545296C438D00526DD4 /* data-structuresTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		224C7B77296B4B4500E10ACD /* Resources */ = {
+		22DC453A296C438D00526DD4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		224C7B81296B4B4500E10ACD /* Resources */ = {
+		22DC4544296C438D00526DD4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -230,42 +230,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		224C7B75296B4B4500E10ACD /* Sources */ = {
+		22DC4538296C438D00526DD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224C7B9E296B4CAB00E10ACD /* _SimpleArrayBuffer.swift in Sources */,
-				224C7BA5296B4CD000E10ACD /* SimpleArray.docc in Sources */,
-				224C7BA1296B4CAB00E10ACD /* SimpleArray+Collection.swift in Sources */,
-				224C7B9D296B4CAB00E10ACD /* SimpleArray._Storage.swift in Sources */,
-				224C7BA2296B4CAB00E10ACD /* SimpleArray.swift in Sources */,
-				224C7BA3296B4CAB00E10ACD /* _SimpleArrayBufferHeader.swift in Sources */,
-				224C7B9F296B4CAB00E10ACD /* SimpleArray._UnsafeHandle.swift in Sources */,
-				224C7B7E296B4B4500E10ACD /* Data_Structures.docc in Sources */,
-				224C7BA0296B4CAB00E10ACD /* _SimpleArraySlot.swift in Sources */,
+				22D95785296C45E3002C7B66 /* Data_Structures.docc in Sources */,
+				22D9577F296C443C002C7B66 /* SimpleArray+Collection.swift in Sources */,
+				22D9577C296C443C002C7B66 /* SimpleArray._Storage.swift in Sources */,
+				22D95782296C443C002C7B66 /* SimpleArray.swift in Sources */,
+				22D95780296C443C002C7B66 /* _SimpleArrayBufferHeader.swift in Sources */,
+				22D9577D296C443C002C7B66 /* SimpleArray._UnsafeHandle.swift in Sources */,
+				22D95781296C443C002C7B66 /* _SimpleArrayBuffer.swift in Sources */,
+				22D9577E296C443C002C7B66 /* SimpleArray.docc in Sources */,
+				22D9577B296C443C002C7B66 /* _SimpleArraySlot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		224C7B7F296B4B4500E10ACD /* Sources */ = {
+		22DC4542296C438D00526DD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224C7B89296B4B4500E10ACD /* Data_StructuresTests.swift in Sources */,
+				22DC454C296C438D00526DD4 /* SimpleArrayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		224C7B86296B4B4500E10ACD /* PBXTargetDependency */ = {
+		22DC4549296C438D00526DD4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 224C7B78296B4B4500E10ACD /* Data Structures */;
-			targetProxy = 224C7B85296B4B4500E10ACD /* PBXContainerItemProxy */;
+			target = 22DC453B296C438D00526DD4 /* data-structures */;
+			targetProxy = 22DC4548296C438D00526DD4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		224C7B8B296B4B4500E10ACD /* Debug */ = {
+		22DC454E296C438D00526DD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -326,7 +326,7 @@
 			};
 			name = Debug;
 		};
-		224C7B8C296B4B4500E10ACD /* Release */ = {
+		22DC454F296C438D00526DD4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +380,7 @@
 			};
 			name = Release;
 		};
-		224C7B8E296B4B4500E10ACD /* Debug */ = {
+		22DC4551296C438D00526DD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -404,7 +404,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "pyshnov.Data-Structures";
+				PRODUCT_BUNDLE_IDENTIFIER = "pyshnov.data-structures.data-structures";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
@@ -415,7 +415,7 @@
 			};
 			name = Debug;
 		};
-		224C7B8F296B4B4500E10ACD /* Release */ = {
+		22DC4552296C438D00526DD4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -439,7 +439,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "pyshnov.Data-Structures";
+				PRODUCT_BUNDLE_IDENTIFIER = "pyshnov.data-structures.data-structures";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
@@ -450,7 +450,7 @@
 			};
 			name = Release;
 		};
-		224C7B91296B4B4500E10ACD /* Debug */ = {
+		22DC4554296C438D00526DD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -461,7 +461,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "pyshnov.Data-StructuresTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "pyshnov.data-structures.data-structuresTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -471,7 +471,7 @@
 			};
 			name = Debug;
 		};
-		224C7B92296B4B4500E10ACD /* Release */ = {
+		22DC4555296C438D00526DD4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -482,7 +482,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "pyshnov.Data-StructuresTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "pyshnov.data-structures.data-structuresTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -495,34 +495,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		224C7B73296B4B4500E10ACD /* Build configuration list for PBXProject "Data Structures" */ = {
+		22DC4536296C438D00526DD4 /* Build configuration list for PBXProject "data-structures" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				224C7B8B296B4B4500E10ACD /* Debug */,
-				224C7B8C296B4B4500E10ACD /* Release */,
+				22DC454E296C438D00526DD4 /* Debug */,
+				22DC454F296C438D00526DD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		224C7B8D296B4B4500E10ACD /* Build configuration list for PBXNativeTarget "Data Structures" */ = {
+		22DC4550296C438D00526DD4 /* Build configuration list for PBXNativeTarget "data-structures" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				224C7B8E296B4B4500E10ACD /* Debug */,
-				224C7B8F296B4B4500E10ACD /* Release */,
+				22DC4551296C438D00526DD4 /* Debug */,
+				22DC4552296C438D00526DD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		224C7B90296B4B4500E10ACD /* Build configuration list for PBXNativeTarget "Data StructuresTests" */ = {
+		22DC4553296C438D00526DD4 /* Build configuration list for PBXNativeTarget "data-structuresTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				224C7B91296B4B4500E10ACD /* Debug */,
-				224C7B92296B4B4500E10ACD /* Release */,
+				22DC4554296C438D00526DD4 /* Debug */,
+				22DC4555296C438D00526DD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 224C7B70296B4B4500E10ACD /* Project object */;
+	rootObject = 22DC4533296C438D00526DD4 /* Project object */;
 }

@@ -44,6 +44,11 @@ extension SimpleArray: RandomAccessCollection {
     /// - Complexity: O(1)
     func index(before i: Int) -> Int { i - 1 }
     
+    /// The number of elements in the deque.
+    ///
+    /// - Complexity: O(1)
+    public var count: Int { _storage.count }
+    
     // TODO: add `_modify` for CoW optimisations
     subscript(position: Int) -> Element {
         get {
