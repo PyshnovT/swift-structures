@@ -68,6 +68,14 @@ extension SimpleArray._UnsafeHandle {
 }
 
 extension SimpleArray._UnsafeHandle {
+    
+    var mutableBuffer: UnsafeMutableBufferPointer<Element> {
+        return .init(start: _elements, count: _header.pointee.capacity)
+    }
+    
+}
+
+extension SimpleArray._UnsafeHandle {
         
     @discardableResult
     func initialize(from source: UnsafeBufferPointer<Element>) -> Slot {

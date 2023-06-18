@@ -67,3 +67,33 @@ extension SimpleArray: RandomAccessCollection {
     }
     
 }
+
+extension SimpleArray: MutableCollection {
+
+    public mutating func swapAt(_ i: Int, _ j: Int) {
+        precondition(i >= 0 && i < count, "Index out of bounds")
+        precondition(j >= 0 && j < count, "Index out of bounds")
+        _storage.ensureUnique()
+        _storage.update { handle in
+            let slot1 = handle.slot(forOffset: i)
+            let slot2 = handle.slot(forOffset: j)
+            handle.mutableBuffer.swapAt(slot1.position, slot2.position)
+        }
+    }
+    
+    mutating func withContiguousMutableStorageIfAvailable<R>(
+        _ body: (inout UnsafeMutableBufferPointer<Element>) throws -> R
+    ) rethrows -> R? {
+        _storage.ensureUnique()
+        return try _storage.update({ handle in
+            let original = handle.mutableBuffer
+            var extract = original
+            defer {
+              precondition(extract.baseAddress == original.baseAddress && extract.count == original.count,
+                           "Closure must not replace the provided buffer")
+            }
+            return try body(&extract)
+        })
+    }
+
+}
